@@ -109,3 +109,23 @@ input::placeholder{
 }
 
 
+@media (max-width : 300px) {
+    .calculator{
+        padding: 12px;
+    }
+
+    input{
+        padding: 10px;
+        margin: 7px;
+        font-size: 15px;
+    }
+
+    .row button{
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        margin: 8px;
+        background-color: #01161f;
+    }
+}
+
