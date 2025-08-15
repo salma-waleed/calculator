@@ -24,12 +24,12 @@ body{
 h2{
     transition: 0.3s;
     letter-spacing: -0.5px;
-    color: rgba(0, 0, 0, 0.781);
+    color: rgba(255, 255, 255, 0.678);
 }
 h2:hover{
     transform: translateY(-2px);
     letter-spacing: 2px;
-    color: rgba(255, 255, 255, 0.678);
+    color: white;
 }
 
 
