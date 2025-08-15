@@ -24,11 +24,12 @@ body{
 h2{
     transition: 0.3s;
     letter-spacing: -0.5px;
+    color: rgba(0, 0, 0, 0.781);
 }
 h2:hover{
     transform: translateY(-2px);
     letter-spacing: 2px;
-    color: rgba(0, 0, 0, 0.781);
+    color: rgba(255, 255, 255, 0.678);
 }
 
 
@@ -109,7 +110,7 @@ input::placeholder{
 }
 
 
-@media (max-width : 300px) {
+@media (max-width : 370px) {
     .calculator{
         padding: 12px;
     }
@@ -117,7 +118,7 @@ input::placeholder{
     input{
         padding: 10px;
         margin: 7px;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .row button{
@@ -126,6 +127,7 @@ input::placeholder{
         padding: 5px;
         margin: 8px;
         background-color: #01161f;
+        font-size: 12px;
     }
 }
 
